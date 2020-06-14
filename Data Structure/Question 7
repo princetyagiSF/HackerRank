@@ -1,0 +1,27 @@
+# Complete the plusMinus function below.
+def plusMinus(arr):
+    ps=0
+    ng=0
+    ze=0
+
+    for a in arr:
+        if a>0:
+            ps+=1
+        elif a<0:
+            ng+=1
+        elif a==0:
+            ze+=1
+    b=ps/n
+    c=ng/n
+    d=ze/n
+    print(b)
+    print(c)
+    print(d)
+
+
+if __name__ == '__main__':
+    n = int(input())
+
+    arr = list(map(int, input().rstrip().split()))
+
+    plusMinus(arr)
